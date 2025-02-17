@@ -9,4 +9,119 @@
     font-style: normal;
 }
 
+.body {
+    background-color: #e4e3ed;
+    scroll-behavior: smooth;
+}
 
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    background-color: white;
+}
+
+.main-img-sec {
+    width: 50%;
+    height: 100%;
+}
+
+.main-form-sec {
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+}
+
+.form-main-heading {
+    color: #1E0E62;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.form-para {
+    color: rgba(21, 20, 57, 40%);
+}
+
+.input-email-box p,
+.input-password-box p {
+    color: #1E0E62;
+}
+
+.input-email-box input {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: #151439;
+    padding-left: 20px;
+    outline: none;
+}
+
+.input-password-box div input {
+    height: 50px;
+    width: 48%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: #151439;
+    padding-left: 20px;
+    outline: none;
+}
+
+.signup-main-container button {
+    width: auto;
+    height: 50px;
+    border-radius: 60px;
+    color: white;
+    background-color: #25DAC5;
+    border: none;
+    padding: 0 30px;
+}
+
+.signup-main-container p {
+    color: #EBEAED;
+}
+
+@media screen and (max-width: 980px) {
+    .main-container .main-img-sec {
+        display: none !important;
+    }
+
+    .main-container .main-form-sec {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .main-container .main-form-sec {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .main-container .main-form-sec {
+        padding: 50px 20px;
+    }
+
+    .form .form-main-heading {
+        font-size: 28px;
+    }
+
+    .form .signup-main-container {
+        display: block !important;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .signup-main-container button {
+        margin-right: 0px !important;
+    }
+
+    .signup-main-container p {
+        margin: 10px 0px !important;
+    }
+
+    .input-email-box input,
+    .input-password-box div input {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
