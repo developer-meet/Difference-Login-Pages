@@ -58,7 +58,7 @@
     font-size: 15px;
 }
 
-.create-Acc-btn{
+.create-Acc-btn {
     width: 100%;
     height: 50px;
     color: white;
@@ -67,17 +67,15 @@
     border: none;
 }
 
-.signin-first-line{
+.signin-first-line {
     color: rgba(21, 20, 57, 40%);
-    /* width: 80%; */
 }
 
-.signin-last-line{
+.signin-last-line {
     color: #25DAC5;
-    /* width: 20%; */
 }
 
-.main-signin-line{
+.main-signin-line {
     border-top: 2px solid #EBEAED;
     padding-top: 25px;
     font-size: 18px;
@@ -85,52 +83,53 @@
 
 @media screen and (max-width: 470px) {
 
-    .body .main-container{
+    .body .main-container {
         width: 100%;
     }
 
-    .main-container .form{
+    .main-container .form {
         width: 96%;
         margin: auto;
     }
 
-    .form .main-heading{
+    .form .main-heading {
         font-size: 28px !important;
     }
 }
 
 @media screen and (max-width: 415px) {
-    .form .main-signin-line{
+    .form .main-signin-line {
         display: block !important;
         text-align: center;
     }
 
-    .main-signin-line .signin-first-line{
+    .main-signin-line .signin-first-line {
         margin-right: 0px !important;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .body .main-container{
+    .body .main-container {
         padding: 60px 0;
     }
 
-    .main-container .form{
+    .main-container .form {
         padding: 20px 25px;
     }
 }
 
 @media screen and (max-width: 375px) {
-    .form .checkbox-main-container{
+    .form .checkbox-main-container {
         display: block !important;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 230px){
+@media screen and (max-width: 230px) {
+
     .form .email,
     .password {
-        padding-left: 0px !important; 
-        text-align: center;   
+        padding-left: 0px !important;
+        text-align: center;
     }
 }
