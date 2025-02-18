@@ -13,3 +13,80 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    background-color: white;
+    padding: 100px;
+}
+
+.main-heading {
+    font-size: 35px;
+    color: #1E0E62;
+    font-weight: 600;
+}
+
+.email-sec,
+.password-sec {
+    width: 40%;
+}
+
+.sign-up-sec {
+    width: 15%;
+}
+
+.email-sec input,
+.password-sec input {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: #151439;
+    padding-left: 20px;
+    outline: none;
+}
+
+.sign-up-sec button {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+.form-main-line {
+    color: rgba(21, 20, 57, 40%);
+}
+
+@media screen and (max-width:940px) {
+    .body .main-container {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .main-container div .main-form {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-form div {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .body .main-container {
+        padding: 50px 20px;
+    }
+
+    .main-container div .main-heading {
+        font-size: 28px;
+    }
+}
