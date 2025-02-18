@@ -4,12 +4,182 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+
     scroll-behavior: smooth;
 }
 
 .body {
     background-color: #e4e3ed;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    background-color: #2F1893;
+    background-image: url(./Assets/Background.png);
+    background-size: cover;
+    padding: 100px 200px;
+}
+
+.left-section {
+    width: 50%;
+    height: auto;
+    padding-right: 150px;
+}
+
+.left-sec-heading {
+    font-size: 35px;
+}
+
+.left-section p {
+    color: white;
+}
+
+.right-section {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-fill-up-options {
+    height: 60px;
+    width: 100%;
+}
+
+.signup-option,
+.login-option {
+    line-height: 60px;
+    width: 50%;
+    color: #1E0E62;
+    font-size: 15px;
+    border-bottom: 2px solid #9797976b;
+}
+
+.signup-option:hover,
+.login-option:hover {
+    border-bottom: 2px solid #1E0E62;
+}
+
+.form-inputs {
+    padding: 0 50px;
+
+}
+
+.email,
+.password {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: #151439;
+    padding-left: 20px;
+    outline: none;
+}
+
+.cre-account-sec,
+.login-twitter-sec,
+.or-line {
+    padding: 0 50px;
+}
+
+.cre-account {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+.login-twitter {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+
+    outline: none;
+    background-color: #1DA1F2;
+}
+
+.or-line p {
+    color: #EBEAED;
+}
+
+.or-left-line,
+.or-right-line {
+    height: 2px;
+    width: 45%;
+    background-color: #EBEAED;
+}
+
+.login-twitter-sec button {
+    margin-bottom: 30px !important;
+}
+
+@media screen and (max-width: 1250px) {
+    .main-container .left-section {
+        padding-right: 120px !important;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .body .main-container {
+        padding: 100px 120px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .body .main-container {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .main-container .left-section,
+    .main-container .right-section {
+        width: 100%;
+    }
+
+    .main-container .left-section {
+        padding-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body .main-container {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .main-container {
+        padding: 50px 20px;
+    }
+
+    .left-section .left-sec-heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .main-form .form-inputs {
+        padding: 0 3%;
+    }
+
+    .form-inputs input {
+        padding-left: 0px !important;
+        text-align: center;
+    }
+
+    .main-form .cre-account-sec,
+    .main-form .or-line,
+    .main-form .login-twitter-sec {
+        padding: 0 3%;
+    }
 }
