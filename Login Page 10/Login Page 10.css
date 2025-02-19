@@ -13,3 +13,106 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.white-color {
+    color: white;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 20px;
+    background-color: #2F1893;
+}
+
+.main-container div {
+    width: 45%;
+}
+
+.main-heading-sec p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.main-para-sec p {
+    font-weight: 400;
+}
+
+.email {
+    height: 50px;
+    width: 60%;
+    border-radius: 50px;
+    border: 1px solid #EBEAED;
+    color: rgb(177, 175, 223);
+    padding-left: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.sign-up-btn {
+    height: 50px;
+    width: 30%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+@media screen and (max-width: 888px) {
+    .main-container .sub-div {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .main-container .sub-div {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main-container .sub-div {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .body .main-container {
+        padding: 50px 15px;
+    }
+
+    .sub-div .main-heading-sec p {
+        font-size: 28px !important;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .sub-div form {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    form .email {
+        margin-bottom: 10px;
+    }
+
+    form .email,
+    .sign-up-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    .sub-div .icons {
+        display: block !important;
+    }
+
+    .sub-div .icons img {
+        width: 50%;
+        margin-right: 0px !important;
+        margin-top: 20px;
+    }
+}
