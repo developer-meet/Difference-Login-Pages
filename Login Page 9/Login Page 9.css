@@ -13,3 +13,118 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.main-container div {
+    width: 80%;
+}
+
+.main-container div .left-sec {
+    width: 70%;
+}
+
+.main-container div .right-sec {
+    width: 25%;
+}
+
+.left-sec-heading {
+    font-size: 35px;
+    color: #2F1893;
+    font-weight: 600;
+}
+
+.left-sec-para {
+    color: rgba(21, 20, 57, 40%);
+    padding-right: 100px;
+}
+
+.email {
+    height: 50px;
+    width: 60%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: rgb(21, 20, 57);
+    padding-left: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.sign-up-btn {
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-container div .left-sec {
+        width: 60% !important;
+    }
+
+    .main-container div .right-sec {
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .main-container div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-container div {
+        display: block !important;
+    }
+
+    .main-container div .left-sec {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .left-sec .left-sec-para {
+        padding-right: 0;
+    }
+
+    .main-container div .right-sec {
+        width: 50% !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .body .main-container {
+        padding: 50px 20px;
+    }
+
+    .left-sec .left-sec-heading {
+        font-size: 28px !important;
+    }
+
+    .main-form .email,
+    .sign-up-btn {
+        width: 100% !important;
+    }
+
+    .main-form .email {
+        margin: 0 !important;
+    }
+
+    .main-form .sign-up-btn {
+        margin-top: 10px;
+    }
+
+    .main-container div .right-sec {
+        width: 70% !important;
+    }
+}
