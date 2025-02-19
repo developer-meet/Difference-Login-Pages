@@ -13,3 +13,145 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.white-color {
+    color: white;
+}
+
+.sim-blue-color {
+    color: #25DAC5;
+}
+
+.sim-pink-color {
+    color: #E93A7D;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    background-color: #2F1893;
+    background-image: url(./Assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+}
+
+.left-sec-main-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.email,
+.password {
+    height: 50px;
+    width: 70%;
+    border-radius: 50px;
+    border: 2px solid #EBEAED;
+    color: #ffffff;
+    padding-left: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.last-line {
+    width: 70%;
+}
+
+.last-line-left input[type="checkbox"] {
+    accent-color: #25DAC5;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-sec button {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+.right-sec div {
+    border: 2px solid white;
+    padding: 60px 100px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1230px) {
+    .main-form .last-line {
+        display: block !important;
+        width: 70%;
+        text-align: center;
+    }
+
+    .last-line .last-line-left {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .right-sec div {
+        padding: 60px 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main-container div {
+        display: block !important;
+        width: 100%;
+    }
+
+    .main-container div .left-sec {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .left-sec-main-line .main-line-left {
+        margin-right: 0px !important;
+    }
+
+    .main-container div .right-sec {
+        width: 100% !important;
+        margin-top: 40px;
+    }
+
+    .left-sec .email,
+    .password,
+    .main-form .last-line {
+        width: 100%;
+    }
+
+    .last-line-left p {
+        margin-left: 0 !important;
+    }
+
+    .main-form .button-sec {
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .main-container {
+        padding: 50px 15px;
+    }
+
+    .main-container div {
+        width: 100% !important;
+    }
+
+    .main-form .email,
+    .password {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .right-sec div {
+        padding: 20px 15px;
+    }
+}
