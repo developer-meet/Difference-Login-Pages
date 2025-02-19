@@ -13,3 +13,98 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.main-container{
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 20px;
+    background-color: white;
+}
+
+.main-container .sub-container{
+    width: 80%;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    padding: 60px 100px;
+}
+
+.main-heading{
+    font-size: 35px;
+    font-weight: 600;
+    color: #2F1893;
+}
+
+.email {
+    height: 50px;
+    width: 60%;
+    border-radius: 50px;
+    border: 1px solid #EBEAED;
+    color: rgb(177, 175, 223);
+    padding-left: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.sign-up-btn {
+    height: 50px;
+    width: 30%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 0 25px;
+    outline: none;
+    background-color: #25DAC5;
+}
+
+@media screen and (max-width: 1100px) {
+    .sub-container form{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .main-container .sub-container{
+        width: 100%;
+        padding: 40px 40px;
+    }
+}
+
+@media screen and (max-width: 656px) {
+    .sub-container .main-heading{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .body .main-container{
+        padding: 50px 20px;
+    }
+
+    .main-container .sub-container{
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .sub-container .main-form{
+        display: block !important;
+    }
+
+    .main-form .email{
+        margin-bottom: 15px;
+    }
+
+    .main-form .email, .sign-up-btn{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .main-form .email{
+        padding-left: 0px !important;
+        text-align: center;
+    }
+
+    .main-container .sub-container{
+        padding: 40px 10px;
+    }
+}
