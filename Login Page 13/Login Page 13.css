@@ -13,3 +13,181 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.sim-blue-color {
+    color: #2f1893;
+}
+
+.sim-grey-color {
+    color: rgba(21, 20, 57, 40%);
+}
+
+.width-3per {
+    width: 3%;
+}
+
+.width-97per {
+    width: 97%;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 200px;
+    background-color: white;
+}
+
+.s1-main-heading {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sec-2,
+.sec-3 {
+    padding: 50px;
+    border: 2px solid #e4e3ed;
+    border-radius: 10px;
+}
+
+.email {
+    height: 50px;
+    width: 60%;
+    border-radius: 50px;
+    border: 2px solid #e4e3ed;
+    padding-left: 40px;
+    outline: none;
+}
+
+.right-sec-mid-sec div {
+    width: 48%;
+}
+
+.right-sec-mid-sec div input {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #e4e3ed;
+    padding-left: 40px;
+    outline: none;
+}
+
+.right-sec-bottom-sec div {
+    width: 48%;
+}
+
+.right-sec-bottom-sec .card_h_name-sec input {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid #e4e3ed;
+    padding-left: 40px;
+    outline: none;
+}
+
+.right-sec-bottom-sec div .cvv-sec input {
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid #e4e3ed;
+    padding-left: 10px;
+    outline: none;
+}
+
+.checkout-sec button {
+    height: 50px;
+    color: white;
+    /* width: 40%; */
+    background-color: #25DAC5;
+    border-radius: 50px;
+    border: none;
+}
+
+@media screen and (max-width: 1150px) {
+    .s3-right-sec .right-sec-top-sec {
+        display: block !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .body .main-container {
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sub-container .sec-2 form {
+        display: block !important;
+        width: 100%;
+    }
+
+    .sec-2 form div {
+        width: 100%;
+    }
+
+    .sub-container .sec-3 {
+        display: block !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-form div .email {
+        width: 100%;
+    }
+
+    .s3-right-sec .right-sec-mid-sec,
+    .s3-right-sec .right-sec-bottom-sec {
+        display: block !important;
+        width: 100%;
+    }
+
+    .right-sec-mid-sec div,
+    .right-sec-bottom-sec div {
+        width: 100% !important;
+    }
+
+    .right-sec-bottom-sec div {
+        display: block !important;
+    }
+
+    .right-sec-mid-sec div,
+    .right-sec-bottom-sec div {
+        margin-bottom: 15px;
+    }
+
+    .right-sec-bottom-sec div .cvv-sec input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .body .main-container {
+        padding: 70px 50px;
+    }
+
+    .sub-container .sec-2,
+    .sub-container .sec-3 {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .body .main-container {
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sec-1 .s1-main-heading {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .icons-sec .icon4 {
+        margin-top: 10px;
+    }
+}
