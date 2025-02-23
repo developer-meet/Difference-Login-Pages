@@ -14,18 +14,183 @@
     font-style: normal;
 }
 
+:root {
+    --sim-blue-color: #1E0E62;
+    --sim-grey-color: #15143966;
+    --white-color: #FFFFFF;
+    --sim-aqua-color: #25DAC5;
+}
+
 .sim-blue-color {
-    color: #1E0E62;
+    color: var(--sim-blue-color);
 }
 
 .sim-grey-color {
-    color: #15143966;
+    color: var(--sim-grey-color);
 }
 
-.sim-aqua-color{
-    color: #25DAC5;
+.sim-aqua-color {
+    color: var(--sim-aqua-color);
 }
 
-.white-color{
-    color: white;
+.white-color {
+    color: var(--white-color);
+}
+
+.input-common-css {
+    height: 50px;
+    border: 2px solid #e4e3ed;
+    border-radius: 50px;
+    padding-left: 15px;
+    outline: none;
+    color: #2f1893;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 200px;
+    background-color: #2f1893;
+    background-image: url(./Assets/Background.png);
+}
+
+.sub-container {
+    height: 100%;
+    width: 100%;
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    height: auto;
+}
+
+.main-heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.optaions-sec {
+    height: 60px;
+}
+
+.optaions-sec div {
+    width: 50%;
+    height: 100%;
+    line-height: 60px;
+    color: var(--sim-grey-color);
+    border-bottom: 2px solid var(--sim-grey-color);
+}
+
+.optaions-sec div:hover {
+    color: var(--sim-blue-color);
+    border-bottom: 2px solid var(--sim-blue-color);
+}
+
+.main-form {
+    padding: 70px;
+}
+
+.sec-1 .f-name-sec,
+.l-name-sec {
+    width: 48%;
+}
+
+.f-name-sec input,
+.l-name-sec input {
+    width: 100%;
+}
+
+.sec-2 .card-num-sec{
+    width: 62%;
+}
+
+.sec-2 .cvv-sec {
+    width: 34%;
+}
+
+.card-num-sec input, .cvv-sec input {
+    width: 100%;
+}
+
+.sec-3 .exp-date-sec, .country{
+    width: 48%;
+}
+
+.exp-date-sec input, .country input {
+    width: 100%;
+}
+
+.sec-4 button{
+    height: 60px;
+    background-color: var(--sim-aqua-color);
+    border-radius: 60px;
+    border: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .sub-container .main-content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .sub-container .main-content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .body .main-container{
+        padding: 100px !important;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .main-content .main-form{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main-form .sec-1,
+    .main-form .sec-2,
+    .main-form .sec-3 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-1 .f-name-sec,
+    .l-name-sec {
+        width: 100%;
+    }
+
+    .sec-1 .l-name-sec{
+        margin-top: 24px;
+    }
+
+    .sec-2 .card-num-sec,
+    .sec-2 .cvv-sec {
+        width: 100%;
+    }
+
+    .sec-2 .cvv-sec{
+        margin-top: 24px;
+    }
+
+    .sec-3 .exp-date-sec,
+    .sec-3 .country {
+        width: 100%;
+    }
+
+    .sec-3 .country{
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .body .main-container{
+        padding: 50px 20px !important;
+    }
 }
