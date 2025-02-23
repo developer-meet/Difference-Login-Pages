@@ -13,3 +13,236 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.sim-blue-color {
+    color: #2f1893;
+}
+
+.sim-grey-color {
+    color: rgba(21, 20, 57, 40%);
+}
+
+.input-common-css {
+    height: 50px;
+    border: 2px solid #e4e3ed;
+    border-radius: 50px;
+    padding-left: 15px;
+    outline: none;
+    color: #2f1893;
+}
+
+.main-container {
+    max-width: 1320px;
+    height: auto;
+    padding: 100px 200px;
+    background-color: white;
+}
+
+.main-heading-sec p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.main-content {
+    padding: 50px;
+    border: 2px solid #e4e3ed;
+    border-radius: 10px;
+}
+
+.signin-btn-sec button {
+    height: 50px;
+    color: white;
+    background-color: #25DAC5;
+    border-radius: 50px;
+    border: none;
+}
+
+.s5-para {
+    color: #e4e3ed;
+}
+
+.sec-1 .f-name-sec,
+.l-name-sec {
+    width: 48%;
+}
+
+.f-name-sec input,
+.l-name-sec input {
+    width: 100%;
+}
+
+.sec-2 .add-sec {
+    width: 62%;
+}
+
+.zip-sec {
+    width: 34%;
+}
+
+.add-sec input,
+.zip-sec input {
+    width: 100%;
+}
+
+.sec-3 .city-sec,
+.country-sec {
+    width: 48%;
+}
+
+.city-sec input,
+.country-sec input {
+    width: 100%;
+}
+
+.sec-4 .card-num-sec,
+.sec-4-right {
+    width: 48%;
+}
+
+.card-num-sec input {
+    width: 100%;
+}
+
+.sec-4-right .expiration-sec {
+    width: 62%;
+}
+
+.expiration-sec input {
+    width: 100%;
+}
+
+.sec-4-right .cvv-sec {
+    width: 34%;
+}
+
+.cvv-sec input {
+    width: 100%;
+}
+
+.sec-5 .sec-5-left-sec,
+.signin-btn-sec {
+    width: 48%;
+}
+
+@media screen and (max-width: 1040px) {
+    .body .main-container {
+        padding: 100px;
+    }
+
+    .main-form .sec-5 {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    .sec-5 .sec-5-left-sec,
+    .sec-5 .signin-btn-sec {
+        width: 100% !important;
+    }
+
+    .sec-5 .sec-5-left-sec {
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .sec-5 .signin-btn-sec {
+        margin-top: 15px;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .body .main-container {
+        padding: 100px 50px;
+    }
+
+    .sub-container .main-content {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .main-form .sec-4 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-4 .card-num-sec,
+    .sec-4 .sec-4-right {
+        width: 100% !important;
+    }
+
+    .sec-4 .sec-4-right {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .main-form .sec-1,
+    .main-form .sec-2,
+    .main-form .sec-3 {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-1 .f-name-sec,
+    .l-name-sec {
+        width: 100%;
+    }
+
+    .sec-1 .l-name-sec {
+        margin-top: 24px;
+    }
+
+    .sec-2 .add-sec,
+    .sec-2 .zip-sec {
+        width: 100%;
+    }
+
+    .sec-2 .zip-sec {
+        margin-top: 24px;
+    }
+
+    .sec-3 .city-sec,
+    .country-sec {
+        width: 100%;
+    }
+
+    .sec-3 .country-sec {
+        margin-top: 24px;
+    }
+
+    .sec-4 .sec-4-right {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .sec-4-right .expiration-sec,
+    .sec-4-right .cvv-sec {
+        width: 100%;
+    }
+
+    .sec-4-right .cvv-sec {
+        margin-top: 24px;
+    }
+
+    .sec-5 .sec-5-left-sec {
+        display: block !important;
+        width: 100%;
+    }
+
+    .sec-5-left-sec .s5-para {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body .main-container {
+        padding: 50px 20px;
+    }
+
+    .main-heading-sec p {
+        font-size: 28px !important;
+    }
+}
